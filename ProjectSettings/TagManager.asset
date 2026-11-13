@@ -2,8 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - Corpse
   - 
   - 
   - 
@@ -41,3 +43,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 487115945
+    locked: 0
+  - name: Sign
+    uniqueID: 3587589081
+    locked: 0
+  - name: Trap
+    uniqueID: 4231298355
+    locked: 0
+  - name: Ground
+    uniqueID: 3529434165
+    locked: 0
+  - name: Platform
+    uniqueID: 3435204115
+    locked: 0
+  - name: Gate
+    uniqueID: 3523222981
+    locked: 0
+  - name: Player
+    uniqueID: 4107015901
+    locked: 0
+  - name: Menu
+    uniqueID: 2143445481
+    locked: 0
+  m_RenderingLayers:
+  - Default
